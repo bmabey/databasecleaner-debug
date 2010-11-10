@@ -52,6 +52,7 @@ module Rails3MongoidDevise
 
       config.generators do |g|
         g.orm             :mongoid
+        g.test_framework  :rspec
       end
 
       # Configure the default encoding used in templates for Ruby 1.9.
